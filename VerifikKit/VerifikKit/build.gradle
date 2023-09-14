@@ -30,7 +30,7 @@ dependencies {
 
     implementation 'com.squareup.okhttp3:okhttp:4.9.2'
     implementation 'com.squareup.okio:okio:2.9.0'
-    implementation 'com.facetec:facetec-sdk:9.6.34@aar'
+    implementation 'com.facetec:facetec-sdk:9.6.48@aar'
     //embed(name:'facetec-sdk-9.6.4',ext:'aar')
     //embed 'com.facetec:facetec-sdk:9.6.4@aar'
     implementation 'androidx.appcompat:appcompat:1.6.0'

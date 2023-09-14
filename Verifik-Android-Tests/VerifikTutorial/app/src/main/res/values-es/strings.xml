@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tutorial Verifik</string>
+    <!-- Página principal -->
+    <string name="main_title">¿Qué quieres aprender hoy?</string>
+    <string name="main_desc">Tenemos varios tutoriales para que pruebes nuestra lógica de nuestros servicios de manera sencilla en modo de ejemplos</string>
+    <string name="main_language">Cambiar idioma</string>
+    <string name="biometric">Biometría</string>
+    <string name="explore">Explorar</string>
+    <string name="description">Description</string>
+    <string name="parameters">Parameters</string>
+    <string name="success_criteria">Success criteria</string>
+    <string name="step_1">Paso 1</string>
+    <string name="step_2">Step 2</string>
+    <string name="continue_tuto">Continue tutorial</string>
+    <string name="secret_key">Secret key (JWT)</string>
+    <string name="start">Empezar</string>
+
+    <!-- Liveness -->
+    <string name="liveness_title">Detección de vida</string>
+    <string name="liveness_desc">Realiza una verificación de vida en el escaneo facial, con el fin de identificar si la persona es quien dice ser y está presente al momento de la validación</string>
+    <string name="liveness_params">No hay parámetros a enviar</string>
+    <string name="liveness_criteria">1. El escaneo facial provino de un ser humano vivo y se comprobó la vitalidad.\n
+        2. El token de sesión era válido y no estaba vencido.\n
+        3. Los parámetros enviados en el Body coinciden con los que genera el SDK del Proyecto (No aplica para el Demo).</string>
+    <string name="liveness_step1">Verifik es una plataforma que vende servicios de Verificación , autenticación y comprobación de datos. Al combinar todos los servicios de Verifik puedes tener una solución completa. Crea una cuenta dentro de https://verifik.co para empezar a disfrutar de nuestros servicios de una manera fácil y sencilla de integrar.</string>
+    <string name="liveness_step2">Ve a tu dashboard en https://app.verifik.co y encontrarás en la parte final de la página tu llave a copiar, en ella tenemos tu información necesaria para validar tus permisos y créditos disponibles para utilizar la lógica en este tutorial.</string>
+
+    <!-- Registration -->
+    <string name="register_title">Registro biométrico</string>
+    <string name="register_desc">Realiza una verificación de vida en el escaneo facial y almacena el mapa facial 3D resultante en la base de datos en caso de éxito.</string>
+    <string name="register_params">externalDatabaseRefID: Este parámetro es un Identificador único al cual se va a asociar el escaneo biométrico que se realice, Se cuenta con la opción de correo o de número telefónico.</string>
+    <string name="register_criteria">1. El escaneo facial provino de un ser humano vivo y se comprobó la vitalidad.\n
+2. El token de sesión era válido y no estaba vencido.\n
+3. Los parámetros enviados en el Body coinciden con los que genera el SDK del Proyecto (No aplica para el Demo).\n
+4. El Parametro externalDatabaseRefID no se encuentra actualmente en la base de datos.\n
+5. Se utilizó un sessionId nuevo.</string>
+    <string name="register_step1">Verifik es una plataforma que vende servicios de Verificación , autenticación y comprobación de datos. Al combinar todos los los servicios de Verifik puedes tener una solución completa. Crea una cuenta dentro de https://verifik.co para empezar a disfrutar de nuestros servicios de una manera fácil y sencilla de integrar.</string>
+    <string name="register_step2">Ve a tu dashboard en https://app.verifik.co y encontrarás en la parte final de la página tu llave a copiar, en ella tenemos tu información necesaria para validar tus permisos y créditos disponibles para utilizar la lógica en este tutorial.</string>
+
+    <!-- Login -->
+    <string name="login_title">Inicia sesión con biometría</string>
+    <string name="login_desc">Procesa un escaneo facial en busca de vida y lo compara con un mapa facial 3D de vida comprobada.</string>
+    <string name="login_params">externalDatabaseRefID: Este parámetro es un Identificador único al cual se va a asociar el escaneo biométrico que se realice, Se cuenta con la opción de correo o de número telefónico.</string>
+    <string name="login_criteria">1. El escaneo facial provino de un ser humano vivo y se comprobó la vitalidad.\n
+2. El token de sesión era válido y no estaba vencido.\n
+3. Los parámetros enviados en el Body coinciden con los que genera el SDK del Proyecto (No aplica para el Demo).\n
+4. El Parametro externalDatabaseRefID se encuentra actualmente en la base de datos.\n
+5. El escaneo realizado coincide con el que se encuentra en la base de datos asociado con externalDatabaseRefID.\n
+Se utilizó un sessionId nuevo.</string>
+    <string name="login_step1">Verifik es una plataforma que vende servicios de Verificación , autenticación y comprobación de datos. Al combinar todos los los servicios de Verifik puedes tener una solución completa. Crea una cuenta dentro de https://verifik.co para empezar a disfrutar de nuestros servicios de una manera fácil y sencilla de integrar.</string>
+    <string name="login_step2">Ve a tu dashboard en https://app.verifik.co y encontrarás en la parte final de la página tu llave a copiar, en ella tenemos tu información necesaria para validar tus permisos y créditos disponibles para utilizar la lógica en este tutorial.</string>
+
+    <!-- MatchID -->
+    <string name="matchid_title">Compara tu biometría con un Documento.</string>
+    <string name="matchid_desc">Compara tu biometría con un Documento.</string>
+    <string name="matchid_params">externalDatabaseRefID: Este parámetro es un Identificador único al cual se va a asociar el escaneo biométrico que se realice, Se cuenta con la opción de correo o de número telefónico.</string>
+    <string name="matchid_criteria">1. El escaneo facial provino de un ser humano vivo y se comprobó la vitalidad.\n
+2. El token de sesión era válido y no estaba vencido.\n
+3. Los parámetros enviados en el Body coinciden con los que genera el SDK del Proyecto (No aplica para el Demo).\n
+4. El Parametro externalDatabaseRefID ya tiene asociado un escaneo facial.\n
+5. Se utilizó un sessionId nuevo, en este caso como se deben usar dos servicios se puede usar el mismo sessionId.</string>
+    <string name="matchid_step1">Verifik es una plataforma que vende servicios de Verificación , autenticación y comprobación de datos. Al combinar todos los los servicios de Verifik puedes tener una solución completa. Crea una cuenta dentro de https://verifik.co para empezar a disfrutar de nuestros servicios de una manera fácil y sencilla de integrar.</string>
+    <string name="matchid_step2">Ve a tu dashboard en https://app.verifik.co y encontrarás en la parte final de la página tu llave a copiar, en ella tenemos tu información necesaria para validar tus permisos y créditos disponibles para utilizar la lógica en este tutorial.</string>
+
+    <!-- OCR -->
+    <string name="ocr_title">Escaneo de documento &amp; Extracción de datos</string>
+    <string name="ocr_desc">Compara tu biometría con un Documento.</string>
+    <string name="ocr_params">externalDatabaseRefID: Este parámetro es un Identificador único al cual se va a asociar el escaneo biométrico que se realice, Se cuenta con la opción de correo o de número telefónico.</string>
+    <string name="ocr_criteria">1. El escaneo facial provino de un ser humano vivo y se comprobó la vitalidad.\n
+2. El token de sesión era válido y no estaba vencido.\n
+3. Los parámetros enviados en el Body coinciden con los que genera el SDK del Proyecto (No aplica para el Demo).\n
+4. El Parametro externalDatabaseRefID ya tiene asociado un escaneo facial.\n
+5. Se utilizó un sessionId nuevo, en este caso como se deben usar dos servicios se puede usar el mismo sessionId.</string>
+    <string name="ocr_step1">Verifik es una plataforma que vende servicios de Verificación , autenticación y comprobación de datos. Al combinar todos los los servicios de Verifik puedes tener una solución completa. Crea una cuenta dentro de https://verifik.co para empezar a disfrutar de nuestros servicios de una manera fácil y sencilla de integrar.</string>
+    <string name="ocr_step2">Ve a tu dashboard en https://app.verifik.co y encontrarás en la parte final de la página tu llave a copiar, en ella tenemos tu información necesaria para validar tus permisos y créditos disponibles para utilizar la lógica en este tutorial.</string>
+
+    <!-- Image Age -->
+    <string name="imgage_title">Estimar edad de una imagen</string>
+    <string name="imgage_desc">Obtiene la edad de una imagen</string>
+    <string name="imgage_parameters">image: Este parámetro es una imagen del rostro en base64.</string>
+    <string name="imgage_criteria">1. El escaneo facial provino de un ser humano vivo y se comprobó la vitalidad.\n
+2. Fueron enviados todo los parámetros requeridos por el Body</string>
+    <string name="imgage_step1">Verifik es una plataforma que vende servicios de Verificación , autenticación y comprobación de datos. Al combinar todos los los servicios de Verifik puedes tener una solución completa. Crea una cuenta dentro de https://verifik.co para empezar a disfrutar de nuestros servicios de una manera fácil y sencilla de integrar.</string>
+    <string name="imgage_step2">Ve a tu dashboard en https://app.verifik.co y encontrarás en la parte final de la página tu llave a copiar, en ella tenemos tu información necesaria para validar tus permisos y créditos disponibles para utilizar la lógica en este tutorial.</string>
+
+    <!-- Liveness Image -->
+    <string name="livenessimage_title">Detección de vida en una imagen</string>
+    <string name="livenessimage_desc">Detección de vida en una imagen.</string>
+    <string name="livenessimage_parameters">image: Este parámetro es una imagen del rostro en base64.</string>
+    <string name="livenessimage_criteria">1. El escaneo facial provino de un ser humano vivo y se comprobó la vitalidad.\n
+2. Los parámetros enviados en el Body son los requeridos.</string>
+    <string name="livenessimage_step1">Verifik es una plataforma que vende servicios de Verificación , autenticación y comprobación de datos. Al combinar todos los los servicios de Verifik puedes tener una solución completa. Crea una cuenta dentro de https://verifik.co para empezar a disfrutar de nuestros servicios de una manera fácil y sencilla de integrar.</string>
+    <string name="livenessimage_step2">Ve a tu dashboard en https://app.verifik.co y encontrarás en la parte final de la página tu llave a copiar, en ella tenemos tu información necesaria para validar tus permisos y créditos disponibles para utilizar la lógica en este tutorial.</string>
+
+    <!-- Match2D -->
+    <string name="match2d_title">Compara 2 imágenes</string>
+    <string name="match2d_desc">Compara los biometricos de 2 imágenes</string>
+    <string name="match2d_parameters">minMatchLevel: Este parámetro es un numero del 1 al 6, este numero indica el minimo de coincidencia entre las imagenes, siendo 6 el mas alto.\n
+image0: Este parámetro es una imagen del rostro en base64.\n
+image1: Este parámetro es una imagen del rostro en base64.</string>
+    <string name="match2d_criteria">1. El escaneo facial provino de un ser humano vivo y se comprobó la vitalidad.\n
+2. Los parámetros enviados en el Body son los requeridos.</string>
+    <string name="match2d_step1">Verifik es una plataforma que vende servicios de Verificación , autenticación y comprobación de datos. Al combinar todos los los servicios de Verifik puedes tener una solución completa. Crea una cuenta dentro de https://verifik.co para empezar a disfrutar de nuestros servicios de una manera fácil y sencilla de integrar.</string>
+    <string name="match2d_step2">Ve a tu dashboard en https://app.verifik.co y encontrarás en la parte final de la página tu llave a copiar, en ella tenemos tu información necesaria para validar tus permisos y créditos disponibles para utilizar la lógica en este tutorial.</string>
+
+    <!-- Age -->
+    <string name="age_title">Estimar edad de un registro de biometria</string>
+    <string name="age_desc">Obtiene la edad de un registro de biometria</string>
+    <string name="age_parameters">externalDatabaseRefID: Este parámetro es un Identificador único al cual se va a asociar el escaneo biométrico que se realizo, Se cuenta con la opción de correo o de número telefónico.</string>
+    <string name="age_criteria">1. El escaneo facial provino de un ser humano vivo y se comprobó la vitalidad.\n
+2. Los parámetros enviados en el Body son los requeridos.</string>
+    <string name="age_step1">Verifik es una plataforma que vende servicios de Verificación , autenticación y comprobación de datos. Al combinar todos los los servicios de Verifik puedes tener una solución completa. Crea una cuenta dentro de https://verifik.co para empezar a disfrutar de nuestros servicios de una manera fácil y sencilla de integrar.</string>
+    <string name="age_step2">Ve a tu dashboard en https://app.verifik.co y encontrarás en la parte final de la página tu llave a copiar, en ella tenemos tu información necesaria para validar tus permisos y créditos disponibles para utilizar la lógica en este tutorial.</string>
+
+    <!-- Facescan image -->
+    <string name="facescanimage_title">Compara tu biometría con una imagen</string>
+    <string name="facescanimage_desc">Compara tu biometría con una imagen.</string>
+    <string name="facescanimage_params">externalDatabaseRefID: Este parámetro es un Identificador único al cual se va a asociar el escaneo biométrico que se realizo, Se cuenta con la opción de correo o de número telefónico.\n
+minMatchLevel: Este parámetro es un numero del 1 al 6, este numero indica el mínimo de coincidencia entre las imágenes, siendo 6 el mas alto.\n
+image: Este parámetro es una imagen del rostro en base64.</string>
+    <string name="facescanimage_criteria">1. El escaneo facial provino de un ser humano vivo y se comprobó la vitalidad.\n
+2. Los parámetros enviados en el Body son los requeridos</string>
+    <string name="facescanimage_step1">Verifik es una plataforma que vende servicios de Verificación , autenticación y comprobación de datos. Al combinar todos los los servicios de Verifik puedes tener una solución completa. Crea una cuenta dentro de https://verifik.co para empezar a disfrutar de nuestros servicios de una manera fácil y sencilla de integrar.</string>
+    <string name="facescanimage_step2">Ve a tu dashboard en https://app.verifik.co y encontrarás en la parte final de la página tu llave a copiar, en ella tenemos tu información necesaria para validar tus permisos y créditos disponibles para utilizar la lógica en este tutorial.</string>
+
+</resources>

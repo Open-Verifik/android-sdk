@@ -18,10 +18,11 @@ public class SampleActivity extends AppCompatActivity implements VerifikCallback
     private Verifik verifikKYC;
     private Boolean initVerifik = false;
     final private String refId = "VerifikSample"+ UUID.randomUUID().toString();
-    final private String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRJZCI6IjYxM2E4NWNlODIyY2NhY2E4ZTQwMWFmMCIsImRvY3VtZW50VHlwZSI6IkNDIiwiZG9jdW1lbnROdW1iZXIiOiIxMjM0NTY3ODkiLCJ2IjoxLCJyb2xlIjoiY2xpZW50IiwiSldUUGhyYXNlIjoiTTExMyIsImV4cGlyZXNBdCI6IjIwMjQtMDYtMjQgMjA6NTA6NTkiLCJpYXQiOjE2ODc4MzQyNTl9.KXWmK5zEw3m4ZfbUaxaK9Fl1sftu_Y4JH9okn1S_9PE";
-    final private String tokenKYC = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBSZWdpc3RyYXRpb25JZCI6IjY0NTNlZDIxMjQyZmM4ZjEzNzc2OGMwNyIsImV4cGlyZXNBdCI6IjIwMjMtMDUtMDQgMTg6MTU6NTEiLCJhY2Nlc3NUeXBlIjoiYXBwX3JlZ2lzdHJhdGlvbl9jcmVhdGVkIiwiZW1haWwiOiJpYW1mZWxpcGVvQGdtYWlsLmNvbSIsInBob25lIjoiMzEwMjY5MjEzOCIsInByb2plY3QiOiI2M2M2Y2IyYWU3YzkyZGFkNTBiNjI4ODIiLCJpYXQiOjE2ODMyMjIzNTF9.dUenQm1IUi1c4pWY_rLX75BfbpdFWgEE-fz2SXnZKHk";
-    final private String projectID = "63c5620874ed501af5f983b1";
-    final private String phone = "3102692138";
+    //Complete this with your data
+    final private String token = "";
+    final private String tokenKYC = "";
+    final private String projectID = "";
+    final private String phone = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
